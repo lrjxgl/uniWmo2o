@@ -1,0 +1,336 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "得推外卖",
+				"onReachBottomDistance":60,
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/hello",
+			"style": {
+				"navigationBarTitleText": "hello uniApp",
+				"onReachBottomDistance": 60,
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/article/index",
+			"style": {
+				"navigationBarTitleText": "资讯中心"
+			}
+		}, {
+			"path": "pages/article/list",
+			"style": {
+				"navigationBarTitleText": "资讯列表"
+			}
+		}, {
+			"path": "pages/article/show",
+			"style": {
+				"navigationBarTitleText": "资讯详情"
+			}
+		}, {
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登陆"
+			}
+		}, 
+		{
+			"path": "pages/login/findpwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, 
+		{
+			"path": "pages/register/index",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/user/info",
+			"style": {
+				"navigationBarTitleText": "资料编辑"
+			}
+		},
+		{
+			"path": "pages/user/user_head",
+			"style": {
+				"navigationBarTitleText": "头像编辑"
+			}
+		},
+		{
+			"path": "pages/user/password",
+			"style": {
+				"navigationBarTitleText": "密码修改"
+			}
+		},
+		{
+			"path": "pages/user/paypwd",
+			"style": {
+				"navigationBarTitleText": "支付密码"
+			}
+		},
+		{
+			"path": "pages/notice/my",
+			"style": {
+				"navigationBarTitleText": "通知"
+			}
+		},
+		{
+			"path": "pages/comment/my",
+			"style": {
+				"navigationBarTitleText": "我的评论",
+				"onReachBottomDistance": 60,
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/coupon/my",
+			"style": {
+				"navigationBarTitleText": "我的优惠券"
+			}
+		},
+		{
+			"path": "pages/fav/my",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/recharge/my",
+			"style": {
+				"navigationBarTitleText": "支付记录"
+			}
+		},
+		{
+			"path": "pages/recharge/index",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		},
+		{
+			"path": "pages/recharge/order",
+			"style": {
+				"navigationBarTitleText": "订单支付"
+			}
+		},
+		{
+			"path": "pages/pay_log/my",
+			"style": {
+				"navigationBarTitleText": "消费记录"
+			}
+		},{
+			"path":"pages/pm/index",
+			"style":{
+				"navigationBarTitleText":"我的私信"
+			}
+		},{
+			"path":"pages/pm/detail",
+			"style":{
+				"navigationBarTitleText":"私信"
+			}
+		},
+		{
+			"path": "pages/user_address/my",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/user_address/add",
+			"style": {
+				"navigationBarTitleText": "收货地址添加"
+			}
+		},
+		{
+			"path": "pages/user_address/edit",
+			"style": {
+				"navigationBarTitleText": "收货地址编辑"
+			}
+		},
+		
+		
+		{
+			"path": "pages/user/set",
+			"style": {
+				"navigationBarTitleText": "用户设置"
+			}
+		},
+		{
+			"path": "pages/kefu/index",
+			"style": {
+				"navigationBarTitleText": "客服"
+			}
+		},
+		{
+			"path": "pages/bankcard/index",
+			"style": {
+				"navigationBarTitleText": "银行卡"
+			}
+		},
+		{
+			"path": "pages/html/aboutus",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/check",
+			"style": {
+				"navigationBarTitleText": "检查"
+			} 
+		},{
+			"path":"pages/follow/index",
+			"style":{
+				"navigationBarTitleText":"我的好友"
+			}
+		},
+		{"path":"pages/redpacket/index","style":{
+			"navigationBarTitleText":"我的红包"
+		}},
+		{"path":"pages/invite/my","style":{
+			"navigationBarTitleText":"邀请"
+		}}
+		
+	],
+	"subPackages":[
+		
+		{
+			"root":"wmo2o",
+			"pages":[
+				{"path":"wmo2o/index","style":{
+					"navigationBarTitleText":"商城"
+				}},
+				{"path":"wmo2o_guest/user","style":{
+					"navigationBarTitleText":"客服"
+				}},
+				{"path":"wmo2o_shop/index","style":{
+					"navigationBarTitleText":"商城首页",
+					"navigationStyle":"custom"
+				}},
+				{"path":"wmo2o_product/index","style":{
+					"navigationBarTitleText":"产品中心"
+				}},
+				{"path":"wmo2o_product/list","style":{
+					"navigationBarTitleText":"列表"
+				}},
+				{"path":"wmo2o_product/show","style":{
+					"navigationBarTitleText":"详情"
+				}},
+				{"path":"wmo2o_cart/index","style":{
+					"navigationBarTitleText":"购物车"
+				}},
+				{"path":"wmo2o_coupon/index","style":{
+					"navigationBarTitleText":"优惠券"
+				}},
+				{"path":"wmo2o_coupon_user/index","style":{
+					"navigationBarTitleText":"我的优惠券"
+				}},
+				{"path":"wmo2o_category/index","style":{
+					"navigationBarTitleText":"分类"
+				}},
+				{"path":"wmo2o_order/confirm","style":{
+					"navigationBarTitleText":"订单确认"
+				}},
+				{"path":"wmo2o_order/success","style":{
+					"navigationBarTitleText":"下单成功"
+				}},
+				{"path":"wmo2o_order/my","style":{
+					"navigationBarTitleText":"我的订单"
+				}},
+				{"path":"wmo2o_order/raty","style":{
+					"navigationBarTitleText":"订单评价"
+				}},
+				{"path":"wmo2o_order/show","style":{
+					"navigationBarTitleText":"订单详情"
+				}},
+				{"path":"wmo2o_order/pay","style":{
+					"navigationBarTitleText":"支付"
+				}},
+				{"path":"wmo2o_order/fail","style":{
+					"navigationBarTitleText":"下单失败"
+				}},
+				{"path":"wmo2o_fav/index","style":{
+					"navigationBarTitleText":"收藏"
+				}},
+				{"path":"wmo2o_user/index","style":{
+					"navigationBarTitleText":"用户中心"
+				}},
+				{"path":"wmo2o_search/index","style":{
+					"navigationBarTitleText":"搜索"
+				}},
+				{"path":"wmo2o_blog/index","style":{
+					"navigationBarTitleText":"美食圈"
+				}},
+				{"path":"wmo2o_blog/add","style":{
+					"navigationBarTitleText":"发布"
+				}},
+				{"path":"wmo2o_blog/my","style":{
+					"navigationBarTitleText":"我的"
+				}},
+				{"path":"wmo2o_blog/show","style":{
+					"navigationBarTitleText":"详情"
+				}},
+				{"path":"wmo2o_shoplist/index","style":{
+					"navigationBarTitleText":"商家列表"
+				}},
+				{"path":"wmo2o_shoplist/youxuan","style":{
+					"navigationBarTitleText":"优选"
+				}},
+				{"path":"wmo2o_cbd/index","style":{
+					"navigationBarTitleText":"商圈"
+				}},
+				{"path":"wmo2o_cbd/show","style":{
+					"navigationBarTitleText":"商圈详情"
+				}},
+				{"path":"wmo2o_addr/index","style":{
+					"navigationBarTitleText":"选择地址"
+				}},
+				{"path":"wmo2o_addr/city","style":{
+					"navigationBarTitleText":"选择城市"
+				}}
+			]
+		}
+	
+	],
+	"preloadRule":{
+		"pages/index/index":{
+			"network":"all",
+			"packages":["pagewmo2o"]
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "得推外卖系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"permission":{
+		"scope.userLocation": {
+		  "desc": "你的位置信息将用于小程序位置接口的效果展示"
+		}
+	},
+	"condition": { //模式配置，仅开发期间生效
+    "current": 0, //当前激活的模式（list 的索引项）
+    "list": [{
+            "name": "index", //模式名称
+            "path": "pages/index/index", //启动页面，必选
+            "query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+        },
+		{
+		        "name": "add", //模式名称
+		        "path": "pages/user_address/add", //启动页面，必选
+		        "query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+		    }
+    ]
+}
+	 
+}
