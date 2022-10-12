@@ -14,4 +14,6 @@ DeituiCms旗下的外卖O2O商城uniApp版
 
 演示：http://app.deituicms.com/waimai
 
-后端：https://www.deituicms.com
+官网：https://www.deituicms.com
+
+交流论坛：https://www.deituicms.com/module.php?m=ask&a=list&gid=24 
