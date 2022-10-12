@@ -12,6 +12,6 @@ DeituiCms旗下的外卖O2O商城uniApp版
     6.优惠券：优惠券发布、领取、统计 
     7.开放平台：公众号、小程序、App等相关配置 
 
-演示：http://app.deituicms.com/wmo2o
+演示：http://app.deituicms.com/waimai
 
 后端：https://www.deituicms.com
